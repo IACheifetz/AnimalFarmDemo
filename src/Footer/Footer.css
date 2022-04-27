@@ -1,0 +1,20 @@
+footer {
+    color: var(--color1);
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    background-color: var(--color4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+.button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
