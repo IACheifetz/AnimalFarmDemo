@@ -5,7 +5,7 @@ const AnimalList = ({ animals = [] }) => {
 
   return (
     <div>
-      {animals.map((animal, index) => <Animal key={`animal-list-number-${index + 1}`} name={animal.name} type={animal.type} says={animal.says} />)}
+      {animals.map((animal, index) => <Animal key={`animal-list-number-${index + 1}`} name={animal.name} type={animal.type} says={animal.says} top={animal.top} left={animal.left} />)}
     </div>
   );
 };

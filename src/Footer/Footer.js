@@ -8,6 +8,6 @@ const clickTrick = () => {
 export default function Footer(props) {
   return <>
     <footer>Copyright Alchemy Codelab {props.year}</footer>
-    <button onClick={() => clickTrick()}>click me</button> </>;
+    <button className='button' onClick={() => clickTrick()}>click me</button> </>;
   
 }
